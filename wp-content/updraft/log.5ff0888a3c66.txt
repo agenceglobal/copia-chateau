@@ -1,0 +1,527 @@
+0000.005 (0) Opened log file at time: Fri, 03 Nov 2023 04:14:51 +0000 on http://migracionchateau.com
+0000.013 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 6.3.2 PHP: 7.4.33 (fpm-fcgi, Linux webm197.cluster031.gra.hosting.ovh.net 5.15.80-ovh-vps-grsec-zfs-classid #1 SMP Wed Nov 30 08:49:06 UTC 2022 x86_64) MySQL: 5.7.42-log (max packet size=33554432) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 165 memory_limit: 512M (used: 63.4M | 66M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.016 (0) Free space on disk containing Updraft's temporary directory: 7974771.5 MB
+0000.024 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.030 (0) Processed schedules. Combining jobs from co-inciding events. Tasks now: Backup files: 1 Backup DB: 1
+0000.047 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1697775898, seconds_ago=1208993)
+0000.057 (0) Set semaphore last lock (fd) time to 2023-11-03 04:14:51
+0000.060 (0) Semaphore lock (fd) complete
+0000.073 (0) Backup run: resumption=0, nonce=5ff0888a3c66, file_nonce=5ff0888a3c66 begun at=1698984891 (0s ago), job type=backup
+0000.077 (0) Scheduling a resumption (1) after 300 seconds (1698985191) in case this run gets aborted
+0000.099 (0) Checking if we have a zip executable available
+0000.104 (0) Testing: /usr/bin/zip
+0000.116 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.119 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.121 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.123 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.125 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.128 (0) Binary zip: error (code: -1)
+0000.134 (0) Testing: /bin/zip
+0000.146 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.152 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.173 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.179 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.180 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.181 (0) Binary zip: error (code: -1)
+0000.188 (0) Creation of backups of directories: beginning
+0000.197 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.974 (0) Total entities for the zip file: 1101 directories, 5456 files (0 skipped as non-modified), 94.3 MB
+0002.001 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.023 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.046 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.071 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.097 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.119 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 5456 files batched, 600 (600) added so far); re-opening (prior size: 0 KB)
+0003.859 (0) A useful amount of data was added after this amount of zip processing: 4.5 s (normalised: 4.5 s, rate: 5657.1 KB/s)
+0003.865 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.547483921051, normalised_time=4.5253254594431, max_time=3.856146812439, data points known=1, old_max_bytes=26214400, new_max_bytes=34756925)
+0003.868 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 600 files added (on-disk size: 7041.8 KB)
+0003.899 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 700 files added (on-disk size: 7041.8 KB)
+0003.922 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 800 files added (on-disk size: 7041.8 KB)
+0003.943 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 900 files added (on-disk size: 7041.8 KB)
+0003.965 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 1000 files added (on-disk size: 7041.8 KB)
+0003.986 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 1100 files added (on-disk size: 7041.8 KB)
+0004.028 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 1200 files added (on-disk size: 7041.8 KB)
+0004.052 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 1300 files added (on-disk size: 7041.8 KB)
+0004.074 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 1400 files added (on-disk size: 7041.8 KB)
+0004.096 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 1500 files added (on-disk size: 7041.8 KB)
+0004.119 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 1600 files added (on-disk size: 7041.8 KB)
+0004.122 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.5 MB, 5456 files batched, 1001 (1601) added so far); re-opening (prior size: 7041.8 KB)
+0006.371 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 1700 files added (on-disk size: 13652.3 KB)
+0006.395 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 1800 files added (on-disk size: 13652.3 KB)
+0006.419 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 1900 files added (on-disk size: 13652.3 KB)
+0006.453 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 2000 files added (on-disk size: 13652.3 KB)
+0006.478 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 2100 files added (on-disk size: 13652.3 KB)
+0006.501 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 2200 files added (on-disk size: 13652.3 KB)
+0006.523 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 2300 files added (on-disk size: 13652.3 KB)
+0006.546 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 2400 files added (on-disk size: 13652.3 KB)
+0006.567 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 2500 files added (on-disk size: 13652.3 KB)
+0006.589 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 2600 files added (on-disk size: 13652.3 KB)
+0006.598 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.2 MB, 5456 files batched, 1001 (2602) added so far); re-opening (prior size: 13652.3 KB)
+0007.662 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 2700 files added (on-disk size: 15672.9 KB)
+0007.691 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 2800 files added (on-disk size: 15672.9 KB)
+0007.716 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 2900 files added (on-disk size: 15672.9 KB)
+0007.743 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 3000 files added (on-disk size: 15672.9 KB)
+0007.769 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 3100 files added (on-disk size: 15672.9 KB)
+0007.796 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 3200 files added (on-disk size: 15672.9 KB)
+0007.823 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 3300 files added (on-disk size: 15672.9 KB)
+0007.850 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 3400 files added (on-disk size: 15672.9 KB)
+0007.878 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 3500 files added (on-disk size: 15672.9 KB)
+0007.909 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 3600 files added (on-disk size: 15672.9 KB)
+0007.913 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.7 MB, 5456 files batched, 1001 (3603) added so far); re-opening (prior size: 15672.9 KB)
+0009.203 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 3700 files added (on-disk size: 18738.7 KB)
+0009.225 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 3800 files added (on-disk size: 18738.7 KB)
+0009.247 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 3900 files added (on-disk size: 18738.7 KB)
+0009.273 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 4000 files added (on-disk size: 18738.7 KB)
+0009.300 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 4100 files added (on-disk size: 18738.7 KB)
+0009.327 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 4200 files added (on-disk size: 18738.7 KB)
+0009.356 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 4300 files added (on-disk size: 18738.7 KB)
+0009.387 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 4400 files added (on-disk size: 18738.7 KB)
+0009.414 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 4500 files added (on-disk size: 18738.7 KB)
+0009.441 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 4600 files added (on-disk size: 18738.7 KB)
+0009.446 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.4 MB, 5456 files batched, 1001 (4604) added so far); re-opening (prior size: 18738.7 KB)
+0012.025 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 4700 files added (on-disk size: 28168.6 KB)
+0012.091 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 4800 files added (on-disk size: 28168.6 KB)
+0012.131 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 4900 files added (on-disk size: 28168.6 KB)
+0012.228 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 5000 files added (on-disk size: 28168.6 KB)
+0012.260 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 5100 files added (on-disk size: 28168.6 KB)
+0012.322 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 5200 files added (on-disk size: 28168.6 KB)
+0012.355 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 5300 files added (on-disk size: 28168.6 KB)
+0012.403 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.tmp: 5400 files added (on-disk size: 28168.6 KB)
+0014.305 (0) Creating zip file manifest (backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.list-temp.tmp)
+0014.320 (0) Successfully created zip file manifest (size: 453895)
+0014.849 (0) Created plugins zip (0) - 34243.7 KB in 14.6 s (2337.9 KB/s) (sha1: 689633d91e05b540c7913432e09639230e0d0e68, sha256: 99ab13815796291cb0536976f239c61a3620eab162ff9bc6ef34255e79e2c88c)
+0014.856 (0) Beginning creation of dump of themes (split every: 400 MB)
+0015.314 (0) Total entities for the zip file: 401 directories, 1172 files (0 skipped as non-modified), 35.4 MB
+0015.339 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.363 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.387 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.413 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0015.444 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0015.470 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0015.496 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0015.521 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0015.547 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0015.577 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0015.579 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (32.4 MB, 1172 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0017.775 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.tmp: 1100 files added (on-disk size: 14017.1 KB)
+0018.325 (0) Creating zip file manifest (backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.list-temp.tmp)
+0018.331 (0) Successfully created zip file manifest (size: 92313)
+0018.584 (0) Created themes zip (0) - 16269.8 KB in 3.7 s (4368.1 KB/s) (sha1: 27d904d6344a568de98a81b181b307941398ee6a, sha256: e79889e5ed3c526a0ea22124cb6e8fcfe9376a3a76c084ca0481eecd2025d4cc)
+0018.589 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0018.591 (0) Looking for candidates to backup in: /home/chatepi/www/wp-content/uploads
+0018.592 (0) finding files: 2020: adding to list (1)
+0018.594 (0) finding files: wpforms: adding to list (2)
+0018.595 (0) finding files: astra-sites: adding to list (3)
+0018.596 (0) finding files: 2023: adding to list (4)
+0018.597 (0) finding files: 2021: adding to list (5)
+0018.600 (0) finding files: elementor: adding to list (6)
+0018.601 (0) finding files: 2022: adding to list (7)
+0018.602 (0) finding files: rank-math: adding to list (8)
+0018.603 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0018.707 (0) Total entities for the zip file: 34 directories, 320 files (0 skipped as non-modified), 14.4 MB
+0018.731 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.754 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0018.776 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0019.470 (0) Creating zip file manifest (backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-uploads.zip.list-temp.tmp)
+0019.474 (0) Successfully created zip file manifest (size: 21705)
+0019.720 (0) Created uploads zip (0) - 12641.3 KB in 1.1 s (11343 KB/s) (sha1: cb63b4ef847b0e4d496a3fde5f14c55b0a0b1282, sha256: a439cb7c22d04cbac1e1f117d471c703c195ad43f8ab1ff0abf74930825f5875)
+0019.727 (0) Beginning backup of other directories found in the content directory (index: 0)
+0019.728 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0019.730 (0) Looking for candidates to backup in: /home/chatepi/www/wp-content
+0019.733 (0) finding files: uploads: skipping: this is the uploads directory
+0019.735 (0) finding files: updraft: skipping: this is the updraft directory
+0019.736 (0) finding files: plugins: skipping: this is the plugins directory
+0019.738 (0) finding files: upgrade: skipping: excluded by options
+0019.740 (0) finding files: themes: skipping: this is the themes directory
+0019.742 (0) finding files: languages: adding to list (1)
+0019.744 (0) finding files: index.php: adding to list (2)
+0020.010 (0) Total entities for the zip file: 3 directories, 668 files (0 skipped as non-modified), 26.3 MB
+0020.035 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.058 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0020.081 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0020.105 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0020.128 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0020.151 (0) Zip: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0022.408 (0) Creating zip file manifest (backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip.list-temp.tmp)
+0022.414 (0) Successfully created zip file manifest (size: 43418)
+0022.538 (0) Created others zip (0) - 7606.6 KB in 2.8 s (2725.6 KB/s) (sha1: 3f09df85c4b1af2cf84d8c3fb3f6b9ae989c7764, sha256: eaca647865f771a6ef40a0ff1ed0365897b6298f94ef01f43c662f54d6092135)
+0022.553 (0) Saving backup status to database (elements: 8)
+0022.567 (0) Beginning creation of database dump (WordPress DB)
+0022.570 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0022.596 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0022.631 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `mod843_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */; (truncated - 1574 bytes total)
+0022.634 (0) Binary mysqldump: error (code: -1)
+0022.636 (0) Testing potential mysqldump binary: /bin/mysqldump
+0022.658 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `mod843_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */; (truncated - 1574 bytes total)
+0022.661 (0) Binary mysqldump: error (code: -1)
+0022.748 (0) Table mod843_options: Total expected rows (via COUNT): 416
+0022.749 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.881 (0) Table mod843_options: Rows added in this batch (next record: 64124): 412 (uncompressed bytes in this segment=5052472) in 0.19 seconds
+0022.896 (0) Table mod843_options: finishing file(s) (2, 367.5 KB)
+0022.909 (0) Table mod843_users: Total expected rows (via COUNT): 1
+0022.912 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.918 (0) Table mod843_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1438) in 0.01 seconds
+0022.938 (0) Table mod843_users: finishing file(s) (2, 0.6 KB)
+0022.957 (0) Table mod843_usermeta: Total expected rows (via COUNT): 36
+0022.959 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.966 (0) Table mod843_usermeta: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=3447) in 0.02 seconds
+0022.978 (0) Table mod843_usermeta: finishing file(s) (2, 1.6 KB)
+0022.997 (0) Table mod843_actionscheduler_actions: Total expected rows (via COUNT): 533
+0023.025 (0) Table mod843_actionscheduler_actions: Rows added in this batch (next record: 8512): 533 (uncompressed bytes in this segment=188433) in 0.04 seconds
+0023.040 (0) Table mod843_actionscheduler_actions: finishing file(s) (2, 14 KB)
+0023.050 (0) Table mod843_actionscheduler_claims: Total expected rows (via COUNT): 0
+0023.054 (0) Table mod843_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=648) in 0.01 seconds
+0023.065 (0) Table mod843_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0023.077 (0) Table mod843_actionscheduler_groups: Total expected rows (via COUNT): 5
+0023.080 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.086 (0) Table mod843_actionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=821) in 0.01 seconds
+0023.097 (0) Table mod843_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0023.108 (0) Table mod843_actionscheduler_logs: Total expected rows (approximate): 1585
+0023.141 (0) Table mod843_actionscheduler_logs: Rows added in this batch (next record: 25405): 1585 (uncompressed bytes in this segment=140868) in 0.03 seconds
+0023.151 (0) Table mod843_actionscheduler_logs: finishing file(s) (2, 11.3 KB)
+0023.168 (0) Table mod843_commentmeta: Total expected rows (via COUNT): 0
+0023.173 (0) Table mod843_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=709) in 0.01 seconds
+0023.186 (0) Table mod843_commentmeta: finishing file(s) (2, 0.4 KB)
+0023.198 (0) Table mod843_comments: Total expected rows (via COUNT): 1
+0023.202 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.211 (0) Table mod843_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2250) in 0.02 seconds
+0023.222 (0) Table mod843_comments: finishing file(s) (2, 0.8 KB)
+0023.236 (0) Table mod843_links: Total expected rows (via COUNT): 0
+0023.244 (0) Table mod843_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1334) in 0.01 seconds
+0023.256 (0) Table mod843_links: finishing file(s) (2, 0.5 KB)
+0023.413 (0) Table mod843_postmeta: Total expected rows (approximate): 1720
+0023.859 (0) Table mod843_postmeta: Rows added in this batch (next record: 2424): 1996 (uncompressed bytes in this segment=18277353) in 0.59 seconds
+0023.889 (0) Table mod843_postmeta: finishing file(s) (2, 1681.2 KB)
+0023.916 (0) Table mod843_posts: Total expected rows (via COUNT): 281
+0023.917 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.959 (0) Table mod843_posts: Rows added in this batch (next record: 859): 281 (uncompressed bytes in this segment=1197620) in 0.06 seconds
+0023.974 (0) Table mod843_posts: finishing file(s) (2, 36.2 KB)
+0023.984 (0) Table mod843_term_relationships: Total expected rows (approximate): 8
+0023.991 (0) Table mod843_term_relationships: Rows added in this batch (next record: 100000): 8 (uncompressed bytes in this segment=828) in 0.01 seconds
+0024.003 (0) Table mod843_term_relationships: finishing file(s) (2, 0.4 KB)
+0024.021 (0) Table mod843_term_taxonomy: Total expected rows (via COUNT): 5
+0024.024 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.031 (0) Table mod843_term_taxonomy: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1092) in 0.02 seconds
+0024.044 (0) Table mod843_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0024.058 (0) Table mod843_termmeta: Total expected rows (via COUNT): 3
+0024.060 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.065 (0) Table mod843_termmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=868) in 0.01 seconds
+0024.078 (0) Table mod843_termmeta: finishing file(s) (2, 0.4 KB)
+0024.088 (0) Table mod843_terms: Total expected rows (via COUNT): 5
+0024.091 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.095 (0) Table mod843_terms: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=897) in 0.01 seconds
+0024.105 (0) Table mod843_terms: finishing file(s) (2, 0.5 KB)
+0024.116 (0) Table mod843_e_events: Total expected rows (via COUNT): 0
+0024.123 (0) Table mod843_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=553) in 0.01 seconds
+0024.133 (0) Table mod843_e_events: finishing file(s) (2, 0.4 KB)
+0024.141 (0) Table mod843_loginizer_logs: Total expected rows (approximate): 21
+0024.146 (0) Table mod843_loginizer_logs: Rows added in this batch (next record: 1000): 21 (uncompressed bytes in this segment=2705) in 0.01 seconds
+0024.156 (0) Table mod843_loginizer_logs: finishing file(s) (2, 0.8 KB)
+0024.169 (0) Table mod843_rank_math_404_logs: Total expected rows (via COUNT): 92
+0024.172 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.180 (0) Table mod843_rank_math_404_logs: Rows added in this batch (next record: 92): 92 (uncompressed bytes in this segment=6599) in 0.01 seconds
+0024.189 (0) Table mod843_rank_math_404_logs: finishing file(s) (2, 1.9 KB)
+0024.197 (0) Table mod843_rank_math_analytics_gsc: Total expected rows (via COUNT): 0
+0024.202 (0) Table mod843_rank_math_analytics_gsc: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=945) in 0.01 seconds
+0024.211 (0) Table mod843_rank_math_analytics_gsc: finishing file(s) (2, 0.5 KB)
+0024.227 (0) Table mod843_rank_math_analytics_inspections: Total expected rows (via COUNT): 1
+0024.228 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.237 (0) Table mod843_rank_math_analytics_inspections: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2503) in 0.02 seconds
+0024.249 (0) Table mod843_rank_math_analytics_inspections: finishing file(s) (2, 0.8 KB)
+0024.256 (0) Table mod843_rank_math_analytics_objects: Total expected rows (via COUNT): 21
+0024.257 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.262 (0) Table mod843_rank_math_analytics_objects: Rows added in this batch (next record: 23): 21 (uncompressed bytes in this segment=4236) in 0.01 seconds
+0024.269 (0) Table mod843_rank_math_analytics_objects: finishing file(s) (2, 1 KB)
+0024.278 (0) Table mod843_rank_math_internal_links: Total expected rows (via COUNT): 17
+0024.280 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.283 (0) Table mod843_rank_math_internal_links: Rows added in this batch (next record: 453): 17 (uncompressed bytes in this segment=2973) in 0.01 seconds
+0024.292 (0) Table mod843_rank_math_internal_links: finishing file(s) (2, 0.7 KB)
+0024.302 (0) Table mod843_rank_math_internal_meta: Total expected rows (via COUNT): 4
+0024.305 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.309 (0) Table mod843_rank_math_internal_meta: Rows added in this batch (next record: 842): 4 (uncompressed bytes in this segment=793) in 0.01 seconds
+0024.320 (0) Table mod843_rank_math_internal_meta: finishing file(s) (2, 0.4 KB)
+0024.331 (0) Table mod843_rank_math_redirections: Total expected rows (via COUNT): 0
+0024.338 (0) Table mod843_rank_math_redirections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1031) in 0.01 seconds
+0024.349 (0) Table mod843_rank_math_redirections: finishing file(s) (2, 0.5 KB)
+0024.360 (0) Table mod843_rank_math_redirections_cache: Total expected rows (via COUNT): 0
+0024.363 (0) Table mod843_rank_math_redirections_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=899) in 0.01 seconds
+0024.377 (0) Table mod843_rank_math_redirections_cache: finishing file(s) (2, 0.4 KB)
+0024.392 (0) Table mod843_wpforms_tasks_meta: Total expected rows (via COUNT): 541
+0024.393 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.407 (0) Table mod843_wpforms_tasks_meta: Rows added in this batch (next record: 541): 541 (uncompressed bytes in this segment=204737) in 0.02 seconds
+0024.423 (0) Table mod843_wpforms_tasks_meta: finishing file(s) (2, 7.3 KB)
+0024.426 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_options.table.tmpr64125.gz (1/27/fopen): adding to final database dump
+0024.433 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_options.table.gz (2/27/fopen): adding to final database dump
+0024.435 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_users.table.tmpr2.gz (3/27/fopen): adding to final database dump
+0024.437 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_users.table.gz (4/27/fopen): adding to final database dump
+0024.438 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_usermeta.table.tmpr37.gz (5/27/fopen): adding to final database dump
+0024.440 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_usermeta.table.gz (6/27/fopen): adding to final database dump
+0024.441 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_actionscheduler_actions.table.tmpr8513.gz (7/27/fopen): adding to final database dump
+0024.444 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_actionscheduler_actions.table.gz (8/27/fopen): adding to final database dump
+0024.445 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_actionscheduler_claims.table.tmpr0.gz (9/27/fopen): adding to final database dump
+0024.447 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_actionscheduler_claims.table.gz (10/27/fopen): adding to final database dump
+0024.448 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_actionscheduler_groups.table.tmpr6.gz (11/27/fopen): adding to final database dump
+0024.449 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_actionscheduler_groups.table.gz (12/27/fopen): adding to final database dump
+0024.451 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_actionscheduler_logs.table.tmpr25406.gz (13/27/fopen): adding to final database dump
+0024.453 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_actionscheduler_logs.table.gz (14/27/fopen): adding to final database dump
+0024.455 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_commentmeta.table.tmpr0.gz (15/27/fopen): adding to final database dump
+0024.456 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_commentmeta.table.gz (16/27/fopen): adding to final database dump
+0024.457 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_comments.table.tmpr2.gz (17/27/fopen): adding to final database dump
+0024.459 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_comments.table.gz (18/27/fopen): adding to final database dump
+0024.460 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_links.table.tmpr0.gz (19/27/fopen): adding to final database dump
+0024.461 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_links.table.gz (20/27/fopen): adding to final database dump
+0024.463 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_postmeta.table.tmpr2425.gz (21/27/fopen): adding to final database dump
+0024.480 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_postmeta.table.gz (22/27/fopen): adding to final database dump
+0024.483 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_posts.table.tmpr860.gz (23/27/fopen): adding to final database dump
+0024.486 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_posts.table.gz (24/27/fopen): adding to final database dump
+0024.488 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_term_relationships.table.tmpr100001.gz (25/27/fopen): adding to final database dump
+0024.491 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_term_relationships.table.gz (26/27/fopen): adding to final database dump
+0024.493 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_term_taxonomy.table.tmpr6.gz (27/27/fopen): adding to final database dump
+0024.496 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_term_taxonomy.table.gz (28/27/fopen): adding to final database dump
+0024.497 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_termmeta.table.tmpr4.gz (29/27/fopen): adding to final database dump
+0024.500 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_termmeta.table.gz (30/27/fopen): adding to final database dump
+0024.502 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_terms.table.tmpr6.gz (31/27/fopen): adding to final database dump
+0024.505 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_terms.table.gz (32/27/fopen): adding to final database dump
+0024.508 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_e_events.table.tmpr0.gz (33/27/fopen): adding to final database dump
+0024.512 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_e_events.table.gz (34/27/fopen): adding to final database dump
+0024.514 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_loginizer_logs.table.tmpr1001.gz (35/27/fopen): adding to final database dump
+0024.517 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_loginizer_logs.table.gz (36/27/fopen): adding to final database dump
+0024.520 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_404_logs.table.tmpr93.gz (37/27/fopen): adding to final database dump
+0024.524 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_404_logs.table.gz (38/27/fopen): adding to final database dump
+0024.525 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_analytics_gsc.table.tmpr0.gz (39/27/fopen): adding to final database dump
+0024.528 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_analytics_gsc.table.gz (40/27/fopen): adding to final database dump
+0024.529 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_analytics_inspections.table.tmpr2.gz (41/27/fopen): adding to final database dump
+0024.552 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_analytics_inspections.table.gz (42/27/fopen): adding to final database dump
+0024.553 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_analytics_objects.table.tmpr24.gz (43/27/fopen): adding to final database dump
+0024.558 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_analytics_objects.table.gz (44/27/fopen): adding to final database dump
+0024.561 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_internal_links.table.tmpr454.gz (45/27/fopen): adding to final database dump
+0024.564 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_internal_links.table.gz (46/27/fopen): adding to final database dump
+0024.565 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_internal_meta.table.tmpr843.gz (47/27/fopen): adding to final database dump
+0024.568 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_internal_meta.table.gz (48/27/fopen): adding to final database dump
+0024.569 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_redirections.table.tmpr0.gz (49/27/fopen): adding to final database dump
+0024.571 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_redirections.table.gz (50/27/fopen): adding to final database dump
+0024.572 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_redirections_cache.table.tmpr0.gz (51/27/fopen): adding to final database dump
+0024.573 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_rank_math_redirections_cache.table.gz (52/27/fopen): adding to final database dump
+0024.575 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_wpforms_tasks_meta.table.tmpr542.gz (53/27/fopen): adding to final database dump
+0024.576 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db-table-mod843_wpforms_tasks_meta.table.gz (54/27/fopen): adding to final database dump
+0024.601 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db.gz: finished writing out complete database file (2131.2 KB)
+0024.642 (0) Total database tables backed up: 27 (backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db.gz, size: 2182499, sha1: 68e531b2b9831434edf3705d807b37f9fd2e1b70, sha256: 1fe3a5f162b90c79c62e10a78c1d710fdf64170d595bd92018bed634fd602ede)
+0024.661 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0024.664 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0024.665 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0024.668 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip: others: This file has not yet been successfully uploaded: will queue
+0024.669 (0) backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db.gz: db: This file has not yet been successfully uploaded: will queue
+0024.671 (0) Saving backup history. Total backup size: 71.2 MB
+0024.677 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0024.683 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0024.684 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4c8c867ef88871140b7313e9a881b6e3)
+0025.833 (0) Google Drive: quota usage: used=13968.8 MB, total=102400 MB, available=88431.2 MB
+0025.835 (0) Google Drive: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip: Attempting to upload to Google Drive (into folder id: 1WbHi-0E1Rrhc7r8RS9uHfhaB7A7pJ1iI)
+0026.455 (0) Googledrive chunked upload: 3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 66.7 / 96)
+0026.677 (0) Googledrive chunked upload: 9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 66.7 / 96)
+0026.876 (0) Googledrive chunked upload: 20.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 66.7 / 96)
+0027.274 (0) Googledrive chunked upload: 44.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 66.7 / 96)
+0027.929 (0) Googledrive chunked upload: 92.7 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 66.7 / 96)
+0029.244 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0029.249 (0) Google Drive: OK: Archive backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip uploaded in 3.41 seconds
+0029.252 (0) Recording as successfully uploaded: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip
+0029.260 (0) Deleting local file: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip: OK
+0029.264 (0) Deleting zip manifest (backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-plugins.zip.list.tmp)
+0029.514 (0) Google Drive: quota usage: used=14002.2 MB, total=102400 MB, available=88397.8 MB
+0029.518 (0) Google Drive: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip: Attempting to upload to Google Drive (into folder id: 1WbHi-0E1Rrhc7r8RS9uHfhaB7A7pJ1iI)
+0029.999 (0) Googledrive chunked upload: 6.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 66.7 / 96)
+0030.169 (0) Googledrive chunked upload: 18.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 66.7 / 96)
+0030.399 (0) Googledrive chunked upload: 44.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 66.7 / 96)
+0030.811 (0) Googledrive chunked upload: 94.4 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 66.7 / 96)
+0031.906 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0031.911 (0) Google Drive: OK: Archive backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip uploaded in 2.39 seconds
+0031.913 (0) Recording as successfully uploaded: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip
+0031.918 (0) Deleting local file: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip: OK
+0031.920 (0) Deleting zip manifest (backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-themes.zip.list.tmp)
+0032.225 (0) Google Drive: quota usage: used=14018.1 MB, total=102400 MB, available=88381.9 MB
+0032.228 (0) Google Drive: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-uploads.zip: Attempting to upload to Google Drive (into folder id: 1WbHi-0E1Rrhc7r8RS9uHfhaB7A7pJ1iI)
+0032.716 (0) Googledrive chunked upload: 8.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 66.7 / 96)
+0032.867 (0) Googledrive chunked upload: 24.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 66.7 / 96)
+0033.057 (0) Googledrive chunked upload: 56.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 66.7 / 96)
+0034.250 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0034.256 (0) Google Drive: OK: Archive backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-uploads.zip uploaded in 2.03 seconds
+0034.257 (0) Recording as successfully uploaded: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-uploads.zip
+0034.263 (0) Deleting local file: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-uploads.zip: OK
+0034.265 (0) Deleting zip manifest (backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-uploads.zip.list.tmp)
+0034.508 (0) Google Drive: quota usage: used=14018.1 MB, total=102400 MB, available=88381.9 MB
+0034.510 (0) Google Drive: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip: Attempting to upload to Google Drive (into folder id: 1WbHi-0E1Rrhc7r8RS9uHfhaB7A7pJ1iI)
+0035.025 (0) Googledrive chunked upload: 13.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 66.7 / 96)
+0035.195 (0) Googledrive chunked upload: 40.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 66.7 / 96)
+0035.374 (0) Googledrive chunked upload: 94.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 66.7 / 96)
+0036.401 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0036.408 (0) Google Drive: OK: Archive backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip uploaded in 1.9 seconds
+0036.411 (0) Recording as successfully uploaded: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip
+0036.416 (0) Deleting local file: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip: OK
+0036.420 (0) Deleting zip manifest (backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-others.zip.list.tmp)
+0036.700 (0) Google Drive: quota usage: used=14037.9 MB, total=102400 MB, available=88362.1 MB
+0036.703 (0) Google Drive: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db.gz: Attempting to upload to Google Drive (into folder id: 1WbHi-0E1Rrhc7r8RS9uHfhaB7A7pJ1iI)
+0037.267 (0) Googledrive chunked upload: 48 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 66.7 / 96)
+0038.542 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0038.549 (0) Google Drive: OK: Archive backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db.gz uploaded in 1.84 seconds
+0038.551 (0) Recording as successfully uploaded: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db.gz
+0038.556 (0) Deleting local file: backup_2023-11-03-0514_Chteau_de_la_Robinire_5ff0888a3c66-db.gz: OK
+0038.565 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=30
+0038.571 (0) Number of backup sets in history: 33; groups (db): 1
+0038.574 (0) Examining (for databases) backup set with group_id=0, nonce=5ff0888a3c66, datestamp=1698984891 (Nov 03 2023 04:14:51)
+0038.576 (0) This backup set is the backup set just made, so will not be deleted.
+0038.576 (0) Examining (for databases) backup set with group_id=0, nonce=4a837ec10ded, datestamp=1698898764 (Nov 02 2023 04:19:24)
+0038.577 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.579 (0) Examining (for databases) backup set with group_id=0, nonce=c0f11bd03304, datestamp=1698813230 (Nov 01 2023 04:33:50)
+0038.579 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.579 (0) Examining (for databases) backup set with group_id=0, nonce=0516decdc4f7, datestamp=1698725787 (Oct 31 2023 04:16:27)
+0038.579 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.579 (0) Examining (for databases) backup set with group_id=0, nonce=41c18ae39770, datestamp=1698639021 (Oct 30 2023 04:10:21)
+0038.579 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.580 (0) Examining (for databases) backup set with group_id=0, nonce=2bf8d82c655a, datestamp=1698553299 (Oct 29 2023 04:21:39)
+0038.580 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.580 (0) Examining (for databases) backup set with group_id=0, nonce=f5f73bfe2d98, datestamp=1698467226 (Oct 28 2023 04:27:06)
+0038.580 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.580 (0) Examining (for databases) backup set with group_id=0, nonce=39ee5d1d2008, datestamp=1698381139 (Oct 27 2023 04:32:19)
+0038.580 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.580 (0) Examining (for databases) backup set with group_id=0, nonce=739f52011115, datestamp=1698381098 (Oct 27 2023 04:31:38)
+0038.580 (0) Examining (for databases) backup set with group_id=0, nonce=f866886e1fb2, datestamp=1698293788 (Oct 26 2023 04:16:28)
+0038.580 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.580 (0) Examining (for databases) backup set with group_id=0, nonce=980a37f7205a, datestamp=1698208072 (Oct 25 2023 04:27:52)
+0038.580 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.580 (0) Examining (for databases) backup set with group_id=0, nonce=b483fb4ded4f, datestamp=1698121826 (Oct 24 2023 04:30:26)
+0038.580 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.580 (0) Examining (for databases) backup set with group_id=0, nonce=2725deb2aea3, datestamp=1698035524 (Oct 23 2023 04:32:04)
+0038.580 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.581 (0) Examining (for databases) backup set with group_id=0, nonce=fdda82fe556b, datestamp=1697948284 (Oct 22 2023 04:18:04)
+0038.581 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.581 (0) Examining (for databases) backup set with group_id=0, nonce=5e9d97a2861e, datestamp=1697863144 (Oct 21 2023 04:39:04)
+0038.581 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.581 (0) Examining (for databases) backup set with group_id=0, nonce=730c60f46984, datestamp=1697775898 (Oct 20 2023 04:24:58)
+0038.581 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.584 (0) Examining (for databases) backup set with group_id=0, nonce=3551c65c6c50, datestamp=1697689300 (Oct 19 2023 04:21:40)
+0038.584 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.586 (0) Examining (for databases) backup set with group_id=0, nonce=eb9a87a172bd, datestamp=1697602492 (Oct 18 2023 04:14:52)
+0038.586 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.586 (0) Examining (for databases) backup set with group_id=0, nonce=d65a85d71cbd, datestamp=1697516396 (Oct 17 2023 04:19:56)
+0038.586 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.586 (0) Examining (for databases) backup set with group_id=0, nonce=d46722103917, datestamp=1697430829 (Oct 16 2023 04:33:49)
+0038.586 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.586 (0) Examining (for databases) backup set with group_id=0, nonce=6c533030c2f9, datestamp=1697343680 (Oct 15 2023 04:21:20)
+0038.586 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.586 (0) Examining (for databases) backup set with group_id=0, nonce=d40df9e1b9de, datestamp=1697257287 (Oct 14 2023 04:21:27)
+0038.586 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.586 (0) Examining (for databases) backup set with group_id=0, nonce=d736566c0290, datestamp=1697171717 (Oct 13 2023 04:35:17)
+0038.587 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.587 (0) Examining (for databases) backup set with group_id=0, nonce=3fc26c3127b2, datestamp=1697171678 (Oct 13 2023 04:34:38)
+0038.587 (0) Examining (for databases) backup set with group_id=0, nonce=15156991be61, datestamp=1697084218 (Oct 12 2023 04:16:58)
+0038.587 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.587 (0) Examining (for databases) backup set with group_id=0, nonce=3c26b5e64fae, datestamp=1696998514 (Oct 11 2023 04:28:34)
+0038.587 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.587 (0) Examining (for databases) backup set with group_id=0, nonce=e32530619339, datestamp=1696911258 (Oct 10 2023 04:14:18)
+0038.587 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.587 (0) Examining (for databases) backup set with group_id=0, nonce=521e94c368d3, datestamp=1696825114 (Oct 09 2023 04:18:34)
+0038.587 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.587 (0) Examining (for databases) backup set with group_id=0, nonce=381cad13139e, datestamp=1696738729 (Oct 08 2023 04:18:49)
+0038.587 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.587 (0) Examining (for databases) backup set with group_id=0, nonce=2db358061bc7, datestamp=1696652874 (Oct 07 2023 04:27:54)
+0038.587 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.587 (0) Examining (for databases) backup set with group_id=0, nonce=5a0dc63c9818, datestamp=1696565952 (Oct 06 2023 04:19:12)
+0038.587 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.591 (0) Examining (for databases) backup set with group_id=0, nonce=352c2e8c154a, datestamp=1696479633 (Oct 05 2023 04:20:33)
+0038.591 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0038.595 (0) Examining (for databases) backup set with group_id=0, nonce=8dbe91527ea3, datestamp=1696392603 (Oct 04 2023 04:10:03)
+0038.595 (0) 1696392603: db: this set includes a database (backup_2023-10-04-0610_Chteau_de_la_Robinire_8dbe91527ea3-db.gz); db count is now 30
+0038.595 (0) 1696392603: db: over retain limit (30); will delete this database
+0038.595 (0) Delete file: backup_2023-10-04-0610_Chteau_de_la_Robinire_8dbe91527ea3-db.gz, service=googledrive
+0041.430 (0) Google Drive: backup_2023-10-04-0610_Chteau_de_la_Robinire_8dbe91527ea3-db.gz: Deletion successful
+0041.434 (0) This backup set is now empty; will remove from history
+0041.436 (0) Deleting log file (log.8dbe91527ea3.txt)
+0041.437 (0) Number of backup sets in history: 32; groups (files): 1
+0041.438 (0) Examining (for files) backup set with nonce=5ff0888a3c66, datestamp=1698984891 (Nov 03 2023 04:14:51)
+0041.438 (0) This backup set is the backup set just made, so will not be deleted.
+0041.440 (0) This backup set is the backup set just made, so will not be deleted.
+0041.440 (0) This backup set is the backup set just made, so will not be deleted.
+0041.440 (0) This backup set is the backup set just made, so will not be deleted.
+0041.440 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.441 (0) Examining (for files) backup set with nonce=4a837ec10ded, datestamp=1698898764 (Nov 02 2023 04:19:24)
+0041.441 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.443 (0) Examining (for files) backup set with nonce=c0f11bd03304, datestamp=1698813230 (Nov 01 2023 04:33:50)
+0041.443 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.443 (0) Examining (for files) backup set with nonce=0516decdc4f7, datestamp=1698725787 (Oct 31 2023 04:16:27)
+0041.443 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.443 (0) Examining (for files) backup set with nonce=41c18ae39770, datestamp=1698639021 (Oct 30 2023 04:10:21)
+0041.443 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.443 (0) Examining (for files) backup set with nonce=2bf8d82c655a, datestamp=1698553299 (Oct 29 2023 04:21:39)
+0041.443 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.443 (0) Examining (for files) backup set with nonce=f5f73bfe2d98, datestamp=1698467226 (Oct 28 2023 04:27:06)
+0041.443 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.443 (0) Examining (for files) backup set with nonce=39ee5d1d2008, datestamp=1698381139 (Oct 27 2023 04:32:19)
+0041.443 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.443 (0) Examining (for files) backup set with nonce=739f52011115, datestamp=1698381098 (Oct 27 2023 04:31:38)
+0041.443 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0041.444 (0) Examining (for files) backup set with nonce=f866886e1fb2, datestamp=1698293788 (Oct 26 2023 04:16:28)
+0041.444 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.446 (0) Examining (for files) backup set with nonce=980a37f7205a, datestamp=1698208072 (Oct 25 2023 04:27:52)
+0041.446 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.446 (0) Examining (for files) backup set with nonce=b483fb4ded4f, datestamp=1698121826 (Oct 24 2023 04:30:26)
+0041.446 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.446 (0) Examining (for files) backup set with nonce=2725deb2aea3, datestamp=1698035524 (Oct 23 2023 04:32:04)
+0041.446 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.446 (0) Examining (for files) backup set with nonce=fdda82fe556b, datestamp=1697948284 (Oct 22 2023 04:18:04)
+0041.446 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.446 (0) Examining (for files) backup set with nonce=5e9d97a2861e, datestamp=1697863144 (Oct 21 2023 04:39:04)
+0041.446 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.446 (0) Examining (for files) backup set with nonce=730c60f46984, datestamp=1697775898 (Oct 20 2023 04:24:58)
+0041.446 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.447 (0) Examining (for files) backup set with nonce=3551c65c6c50, datestamp=1697689300 (Oct 19 2023 04:21:40)
+0041.447 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.448 (0) Examining (for files) backup set with nonce=eb9a87a172bd, datestamp=1697602492 (Oct 18 2023 04:14:52)
+0041.448 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.448 (0) Examining (for files) backup set with nonce=d65a85d71cbd, datestamp=1697516396 (Oct 17 2023 04:19:56)
+0041.448 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.449 (0) Examining (for files) backup set with nonce=d46722103917, datestamp=1697430829 (Oct 16 2023 04:33:49)
+0041.449 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.449 (0) Examining (for files) backup set with nonce=6c533030c2f9, datestamp=1697343680 (Oct 15 2023 04:21:20)
+0041.449 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.449 (0) Examining (for files) backup set with nonce=d40df9e1b9de, datestamp=1697257287 (Oct 14 2023 04:21:27)
+0041.449 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.449 (0) Examining (for files) backup set with nonce=d736566c0290, datestamp=1697171717 (Oct 13 2023 04:35:17)
+0041.449 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.449 (0) Examining (for files) backup set with nonce=3fc26c3127b2, datestamp=1697171678 (Oct 13 2023 04:34:38)
+0041.449 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0041.450 (0) Examining (for files) backup set with nonce=15156991be61, datestamp=1697084218 (Oct 12 2023 04:16:58)
+0041.450 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.451 (0) Examining (for files) backup set with nonce=3c26b5e64fae, datestamp=1696998514 (Oct 11 2023 04:28:34)
+0041.451 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.451 (0) Examining (for files) backup set with nonce=e32530619339, datestamp=1696911258 (Oct 10 2023 04:14:18)
+0041.451 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.451 (0) Examining (for files) backup set with nonce=521e94c368d3, datestamp=1696825114 (Oct 09 2023 04:18:34)
+0041.451 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.451 (0) Examining (for files) backup set with nonce=381cad13139e, datestamp=1696738729 (Oct 08 2023 04:18:49)
+0041.451 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.452 (0) Examining (for files) backup set with nonce=2db358061bc7, datestamp=1696652874 (Oct 07 2023 04:27:54)
+0041.452 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0041.452 (0) Examining (for files) backup set with nonce=5a0dc63c9818, datestamp=1696565952 (Oct 06 2023 04:19:12)
+0041.452 (0) plugins: over retain limit (4); will delete this file entity
+0041.452 (0) themes: over retain limit (4); will delete this file entity
+0041.452 (0) uploads: over retain limit (4); will delete this file entity
+0041.452 (0) others: over retain limit (4); will delete this file entity
+0041.452 (0) Delete file: backup_2023-10-06-0619_Chteau_de_la_Robinire_5a0dc63c9818-plugins.zip, service=googledrive
+0041.453 (0) Delete file: backup_2023-10-06-0619_Chteau_de_la_Robinire_5a0dc63c9818-themes.zip, service=googledrive
+0041.455 (0) Delete file: backup_2023-10-06-0619_Chteau_de_la_Robinire_5a0dc63c9818-uploads.zip, service=googledrive
+0041.456 (0) Delete file: backup_2023-10-06-0619_Chteau_de_la_Robinire_5a0dc63c9818-others.zip, service=googledrive
+0043.933 (0) Google Drive: backup_2023-10-06-0619_Chteau_de_la_Robinire_5a0dc63c9818-others.zip: Deletion successful
+0044.726 (0) Google Drive: backup_2023-10-06-0619_Chteau_de_la_Robinire_5a0dc63c9818-uploads.zip: Deletion successful
+0045.627 (0) Google Drive: backup_2023-10-06-0619_Chteau_de_la_Robinire_5a0dc63c9818-themes.zip: Deletion successful
+0046.463 (0) Google Drive: backup_2023-10-06-0619_Chteau_de_la_Robinire_5a0dc63c9818-plugins.zip: Deletion successful
+0046.480 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0046.481 (0) Examining (for files) backup set with nonce=352c2e8c154a, datestamp=1696479633 (Oct 05 2023 04:20:33)
+0046.483 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0046.484 (0) Retain: saving new backup history (sets now: 32) and finishing retain operation
+0046.492 (0) Resume backup (5ff0888a3c66, 0): finish run
+0046.499 (0) Decremented the semaphore (fd) by 1
+0046.502 (0) Semaphore (fd) unlocked
+0046.504 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0046.509 (0) The backup apparently succeeded and is now complete
+0046.511 (0) No email will/can be sent - the user has not configured an email address.
+0046.513 (0) La sauvegarde a apparemment réussi et est maintenant terminée
