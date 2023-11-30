@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'chatepi550');
+define('DB_NAME', 'migracion_chateau');
 
 /** MySQL database username */
-define('DB_USER', 'chatepi550');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'QgSh74XzkHEQ');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
-define('DB_HOST', 'chatepi550.mysql.db:3306');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
